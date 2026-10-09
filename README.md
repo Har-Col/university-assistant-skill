@@ -42,8 +42,10 @@ Windows 上是 `C:\Users\<你>\.codex\skills\`。
 在 Codex 里说：
 
 ```text
-用 skill-installer，从 <owner>/<repo> 的 university-assistant 路径装
+用 skill-installer，从 Har-Col/university-assistant-skill 的 university-assistant 路径装
 ```
+
+仓库：<https://github.com/Har-Col/university-assistant-skill>
 
 ## 用法
 
