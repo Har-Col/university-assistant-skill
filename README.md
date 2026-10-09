@@ -47,6 +47,26 @@ Windows 上是 `C:\Users\<你>\.codex\skills\`。
 
 仓库：<https://github.com/Har-Col/university-assistant-skill>
 
+## 更新
+
+技能是**一次性拷进** `~/.codex/skills/` 的，**没有自动更新**。想升级就重装一遍：
+
+1. 先删掉（或改名备份）旧的技能目录
+   - Windows：`C:\Users\<你>\.codex\skills\university-assistant`
+   - Mac / Linux：`~/.codex/skills/university-assistant`
+2. 再装一次：
+
+```text
+用 skill-installer 装：
+repo: Har-Col/university-assistant-skill
+path: university-assistant
+```
+
+安装脚本碰到同名目录会直接报 `Destination already exists`，**必须先删或改名**（没有 `--force`）。
+
+更新只替换 skill 本体，**不会动你工作区里的档案文件**（`大学进度.md` 等）。
+装完**新开一个对话**才生效。改了什么见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 用法
 
 新开一个对话，说一句跟大学有关的事，比如 **"帮我规划一下这学期"**。
