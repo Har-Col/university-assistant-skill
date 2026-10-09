@@ -64,6 +64,13 @@ description: 把 Codex 当作长期大学顾问：大学层面的规划、决策
 用户会同时开着多个专职子对话（各科陪读、刷题、看板维护……）。
 要不要开、开哪些、提示词怎么写 → [references/sub-sessions.md](references/sub-sessions.md)。
 
+### 每日收工（可选仪式）
+
+用户说「收工 / 今天到这 / 睡了 / 今日总结」时 → 读 [references/daily-close.md](references/daily-close.md)：
+回**三段**（今天 / 没做 / 明天第一件事），然后把 `待办清单.md` 的「这几天」整段替换成明天的版本。
+
+**只在用户开口时跑，不设任何 automation。** 分量感来自"事实被摆出来"，不来自夸奖——别灌鸡汤。
+
 ### 看板（可选模块）
 
 只有当用户**主动提到**看板 / 待办清单 / 桌面小组件时，才读 [references/kanban.md](references/kanban.md)。
