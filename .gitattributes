@@ -1,0 +1,2 @@
+# 统一用 LF 换行，避免 Windows 检出时被改成 CRLF（skill 文件要跨平台一致）
+* text=auto eol=lf

@@ -1,0 +1,4 @@
+interface:
+  display_name: "大学助手"
+  short_description: "大学规划、决策、学业与比赛节点、跨文件调度的长期陪伴顾问"
+  default_prompt: "用 $university-assistant 看一下我的进度，告诉我今天该做什么。"
